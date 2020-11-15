@@ -6,5 +6,5 @@ void retro_print_string(string) {
     *video_memory = string;
     return 0;
 void main() {
-    retro_print_string('Welcome to RetroOS')
+    retro_print_string('Welcome to RetroOS');
 }
